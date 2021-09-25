@@ -1,0 +1,64 @@
+* {
+  font-family: "Segoe UI";
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-items: center;
+}
+
+.container .form__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .form__container div input {
+  border-radius: 3px;
+}
+
+.container .form__container .submit .submit-btn {
+  padding: 10px;
+  width: 90%;
+  margin: 5px 20px;
+  border: none;
+  background-color: #ff0062;
+  font-weight: 600;
+  color: white;
+}
+
+.container .form__container .submit .submit-btn:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #ff0062;
+}
+
+.halfwidth {
+  padding: 10px;
+  margin: 5px 0;
+  width: 43.9%;
+}
+
+.fullwidth {
+  padding: 10px;
+  width: 100%;
+  margin: 5px 0;
+}
+/*# sourceMappingURL=styles.css.map */

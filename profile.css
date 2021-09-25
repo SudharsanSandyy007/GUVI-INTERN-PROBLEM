@@ -1,0 +1,66 @@
+* {
+  font-family: "Segoe UI";
+}
+
+body {
+  background-color: aquamarine;
+}
+
+form {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  place-items: center;
+}
+
+.container .login__container {
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 10px #aaaaaa;
+          box-shadow: 10px 10px 10px #aaaaaa;
+  margin-top: 40%;
+  width: 100%;
+  padding: 10px;
+}
+
+.container .login__container .id input,
+.container .login__container .pass input {
+  padding: 10px;
+  border-radius: 3px;
+  width: 250px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.container .login__container .login,
+.container .login__container .signup {
+  padding: 10px;
+  border-radius: 3px;
+  width: 93%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.container .login__container .signup {
+  background-color: #ff0062;
+  color: white;
+  font-weight: 600;
+}
+
+.others input {
+  padding: 10px;
+  margin: 5px 0;
+  width: 250px;
+}
+/*# sourceMappingURL=profile.css.map */
